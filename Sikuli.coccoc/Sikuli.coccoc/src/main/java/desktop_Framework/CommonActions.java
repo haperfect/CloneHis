@@ -936,7 +936,7 @@ public Boolean waitForObjectPresent(String image, int timeout) {
 	{
 		    spath = getResource(image);
 		    Boolean flag = false;
-	
+	       TestLogger.info ("Demo thoi");
 			Region r= new Region(x, y, chieuDai, chieuRong);
 			Match mat = null;
 			try {
