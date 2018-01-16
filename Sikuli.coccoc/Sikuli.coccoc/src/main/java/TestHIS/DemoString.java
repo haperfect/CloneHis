@@ -76,6 +76,6 @@ public class DemoString extends HisActions{
 	
 	}
 
-	
-	
+
+
 }
