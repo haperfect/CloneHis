@@ -75,6 +75,13 @@ public class DemoString extends HisActions{
 		App.getClipboard();
 	
 	}
+
+	public void setTextinClipBoard2()
+	{
+		App.setClipboard("");
+		App.getClipboard();
+	
+	}
 	
 	
 }
