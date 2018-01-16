@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="862.369" tests="18" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_144\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\nvha.EGOV-DEV\Downloads\Sikuli.coccoc\Sikuli.coccoc"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\nvha.EGOV-DEV\Downloads\Sikuli.coccoc\Sikuli.coccoc"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_144\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\NVHA~1.EGO\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\nvha.EGOV-DEV\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8276332891624154286.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;E:\app\nvha\product\11.2.0\client_1;E:\app\nvha\product\11.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\apache-maven-3.5.0\bin;C:\Users\nvha.EGOV-DEV\Downloads\Sikuli.coccoc\Sikuli.coccoc\src\main\resources\libs\libs;C:\Users\nvha.EGOV-DEV\AppData\Local\Microsoft\WindowsApps;;C:\Users\nvha.EGOV-DEV\Downloads\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\nvha.EGOV-DEV"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="nvha"/>
+    <property name="java.class.path" value="/C:/Users/nvha.EGOV-DEV/Downloads/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_144"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_144\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_144\lib\resources.jar;C:\Program Files\Java\jre1.8.0_144\lib\rt.jar;C:\Program Files\Java\jre1.8.0_144\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_144\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_144\lib\jce.jar;C:\Program Files\Java\jre1.8.0_144\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_144\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_144\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\nvha.EGOV-DEV\Downloads\Sikuli.coccoc\Sikuli.coccoc\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS" time="62.126">
+    <failure message="Tiếp nhận Bệnh nhân không thành công !" type="java.lang.AssertionError">java.lang.AssertionError: Tiếp nhận Bệnh nhân không thành công !
+	at TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS.TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1(TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS.java:144)
+</failure>
+    <system-out><![CDATA[[log] App.open C:\Program Files (x86)\NCSw\Hospital@HaNoi\HIS.exe(10328)
+[log] App.focus C:\Program Files (x86)\NCSw\Hospital@HaNoi\HIS.exe(10328) #0
+[error] App.focus failed: C:\Program Files (x86)\NCSw\Hospital@HaNoi\HIS.exe(10328) not found
+INFO: Wait for control like dangnhap_ten.png appears on about 10
+ . . 9.5 Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: ?ng d?ng HIS kh?i ??ng thành công !
+INFO: Wait for control like dangnhap_ten.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(659,338)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "TD01"
+[log] TYPE "#TAB."
+[log] TYPE "123456"
+[log] TYPE "#TAB."
+[log] TYPE "#ENTER."
+INFO: Wait for control like logo_login_thanhcong.png appears on about 10
+ . . 9.5 . . 9.0 Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(622,306)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is Ti?p ?ón ngo?i trú
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#ENTER."
+INFO: Wait for control like TiepNhanBenhNhan_MenuHanhChinh.png appears on about 1
+ . . 0.5 . . 0.0 Stop waiting control appears
+INFO: M? Menu Ti?p Nh?n :
+INFO: Wait for control like HIS_MenuTiepNhan.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(108,50)@S(0)[0,0 1366x768]
+INFO: Wait for control like HIS_SubMenuTiepNhanBenhNhan.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(168,75)@S(0)[0,0 1366x768]
+INFO: Wait for control like AfterLoading.png appears on about 15
+ . . 14.5 . . 14.0 . . 13.5 . . 13.0 . . 12.5 . . 12.0 . . 11.5 . . 11.0 . . 10.5 Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: ?i?n H? tên :
+INFO: Set clipboard contains is 
+INFO: Wait for control like TiepNhanBenhNhan_HoTen.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(153,132)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#DEL"
+INFO: Set clipboard contains is Sefgak FZcubT Mnr
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+INFO: Ch?n gi?i tính N?
+[log] TYPE "#RIGHT."
+[log] TYPE "#TAB."
+INFO: Ch?n ngày sinh :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "29/11/2017"
+[log] TYPE "#TAB."
+[log] TYPE "#TAB."
+INFO: ?i?n s? CMND :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "217944680"
+[log] TYPE "#TAB."
+INFO: ?i?n s? ?I?N THO?I :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "1234567890"
+[log] TYPE "#TAB."
+INFO: ?i?n ngh? nghi?p :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is H?u Trí
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+INFO: ?i?n dân t?c :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is Hoa
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+INFO: ?i?n mã nh?p nhanh cho thành ph? ,qu?n huy?n :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "HN1pl1qt"
+[log] TYPE "#TAB."
+INFO: ?i?n s? nhà
+INFO: Wait for control like TiepNhanBenhNhan_SoNha.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: Wait for control like TiepNhanBenhNhan_SoNha.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(951,162)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is 201
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+INFO: ?i?n n?i làm vi?c
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "xFOtkqVUSbFS"
+[log] TYPE "#TAB."
+INFO: ?i?n ng??i liên h? :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "wLQstS EOROhK sAP"
+[log] TYPE "#TAB."
+INFO: ?i?n s? ?i?n tho?i ng??i liên h? :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "438356644"
+[log] TYPE "#TAB."
+INFO: Ch?n ??i t??ng d?ch v? :
+INFO: Wait for control like TiepNhanBenhNhan_DoiTuong.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: Wait for control like TiepNhanBenhNhan_DoiTuong.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(150,275)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#DEL"
+INFO: Set clipboard contains is D?ch v?
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+INFO: Wait for control like TiepNhanBenhNhan_UuTien.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] TYPE " "
+[log] TYPE "#TAB."
+INFO: Ch?n hình th?c khám :
+INFO: Set clipboard contains is 
+INFO: Wait for control like TiepNhanBenhNhan_HinhThuc.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: Wait for control like TiepNhanBenhNhan_HinhThuc.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(453,274)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#DEL"
+INFO: Set clipboard contains is Tái khám
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#ENTER."
+INFO: Ch?n lí do khám :
+INFO: Wait for control like TiepNhanBenhNhan_LiDoKhamBenh.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: Set clipboard contains is 
+[log] CLICK on L(693,274)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#DEL"
+INFO: Set clipboard contains is Chuy?n khoa
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#ENTER."
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Wait for control like TiepNhanBenhNhan_TenDichVu.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(257,545)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#DEL"
+INFO: Set clipboard contains is Khám tai m?i h?ng
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#ENTER."
+INFO: Wait for control like TiepNhanBenhNhan_NoiThucHien.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(535,547)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is Khám TMH
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+[log] TYPE " "
+[log] CLICK on L(420,685)@S(0)[0,0 1366x768]
+INFO: Wait for control like Phieukham.png appears on about 5
+ . . 4.5 . . 4.0 . . 3.5 . . 3.0 . . 2.5 . . 2.0 . . 1.5 . . 1.0 . . 0.5 . . 0.0 Stop waiting control appears
+INFO: Take screen shot and save to : C:\Users\nvha.EGOV-DEV/Desktop/screenShot/TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1_11-29-16-33-31_ScreenShotTestCaseFailed.png
+-------------------------------------------------------------------
+WARNING: Failed: Ti?p nh?n B?nh nhân không thành công !
+-------------------------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Nov 29, 2017 4:31:54 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+]]></system-err>
+  </testcase>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_2" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS" time="92.45"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_3" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS" time="32.063"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_4" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS" time="29.419"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_5" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS" time="16.132"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_6" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS" time="18.74"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_7" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS" time="45.766"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="61.709">
+    <failure message="Tiếp nhận Bệnh nhân không thành công !" type="java.lang.AssertionError">java.lang.AssertionError: Tiếp nhận Bệnh nhân không thành công !
+	at TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1(TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.java:147)
+</failure>
+    <system-out><![CDATA[[log] CLICK on L(35,49)@S(0)[0,0 1366x768]
+[log] CLICK on L(72,278)@S(0)[0,0 1366x768]
+[log] App.open C:\Program Files (x86)\NCSw\Hospital@HaNoi\HIS.exe(16808)
+[log] App.focus C:\Program Files (x86)\NCSw\Hospital@HaNoi\HIS.exe(16808) #0
+[error] App.focus failed: C:\Program Files (x86)\NCSw\Hospital@HaNoi\HIS.exe(16808) not found
+INFO: Wait for control like dangnhap_ten.png appears on about 10
+ . . 9.5 Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: ?ng d?ng HIS kh?i ??ng thành công !
+INFO: Wait for control like dangnhap_ten.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(659,338)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "TD01"
+[log] TYPE "#TAB."
+[log] TYPE "123456"
+[log] TYPE "#TAB."
+[log] TYPE "#ENTER."
+INFO: Wait for control like logo_login_thanhcong.png appears on about 10
+ . . 9.5 . . 9.0 . . 8.5 Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(622,306)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is Ti?p ?ón ngo?i trú
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#ENTER."
+INFO: Wait for control like TiepNhanBenhNhan_MenuHanhChinh.png appears on about 1
+ . . 0.5 . . 0.0 Stop waiting control appears
+INFO: M? Menu Ti?p Nh?n :
+INFO: Wait for control like HIS_MenuTiepNhan.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(108,50)@S(0)[0,0 1366x768]
+INFO: Wait for control like HIS_SubMenuTiepNhanBenhNhan.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(168,75)@S(0)[0,0 1366x768]
+INFO: Wait for control like AfterLoading.png appears on about 15
+ . . 14.5 . . 14.0 . . 13.5 . . 13.0 . . 12.5 . . 12.0 . . 11.5 . . 11.0 . . 10.5 Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: ?i?n H? tên :
+INFO: Set clipboard contains is 
+INFO: Wait for control like TiepNhanBenhNhan_HoTen.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(153,132)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#DEL"
+INFO: Set clipboard contains is CcaAVl jUzoQa qvy
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+INFO: Ch?n gi?i tính N?
+[log] TYPE "#RIGHT."
+[log] TYPE "#TAB."
+INFO: Ch?n ngày sinh :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "29/11/2017"
+[log] TYPE "#TAB."
+[log] TYPE "#TAB."
+INFO: ?i?n s? CMND :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "217944680"
+[log] TYPE "#TAB."
+INFO: ?i?n s? ?I?N THO?I :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "1234567890"
+[log] TYPE "#TAB."
+INFO: ?i?n ngh? nghi?p :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is H?u Trí
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+INFO: ?i?n dân t?c :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is Hoa
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+INFO: ?i?n mã nh?p nhanh cho thành ph? ,qu?n huy?n :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "HN1pl1qt"
+[log] TYPE "#TAB."
+INFO: ?i?n s? nhà
+INFO: Wait for control like TiepNhanBenhNhan_SoNha.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: Wait for control like TiepNhanBenhNhan_SoNha.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(951,162)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is 832
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+INFO: ?i?n n?i làm vi?c
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "YckvmxzIyaCr"
+[log] TYPE "#TAB."
+INFO: ?i?n ng??i liên h? :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "jdXuyu tmZYtX bka"
+[log] TYPE "#TAB."
+INFO: ?i?n s? ?i?n tho?i ng??i liên h? :
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+[log] TYPE "438356644"
+[log] TYPE "#TAB."
+INFO: Ch?n ??i t??ng d?ch v? :
+INFO: Wait for control like TiepNhanBenhNhan_DoiTuong.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: Wait for control like TiepNhanBenhNhan_DoiTuong.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(150,275)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#DEL"
+INFO: Set clipboard contains is D?ch v?
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+INFO: Wait for control like TiepNhanBenhNhan_UuTien.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] TYPE " "
+[log] TYPE "#TAB."
+INFO: Ch?n hình th?c khám :
+INFO: Set clipboard contains is 
+INFO: Wait for control like TiepNhanBenhNhan_HinhThuc.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: Wait for control like TiepNhanBenhNhan_HinhThuc.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(453,274)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#DEL"
+INFO: Set clipboard contains is Tái khám
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#ENTER."
+INFO: Ch?n lí do khám :
+INFO: Wait for control like TiepNhanBenhNhan_LiDoKhamBenh.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: Set clipboard contains is 
+[log] CLICK on L(693,274)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#DEL"
+INFO: Set clipboard contains is Chuy?n khoa
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#ENTER."
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Wait for control like TiepNhanBenhNhan_TenDichVu.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(257,545)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#DEL"
+INFO: Set clipboard contains is (H?ng test) Khám t?ng quát 
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#ENTER."
+[log] TYPE "#TAB."
+INFO: Wait for control like TiepNhanBenhNhan_NoiThucHien.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(535,547)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is Khám theo yêu c?u
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#TAB."
+[log] TYPE " "
+[log] CLICK on L(420,685)@S(0)[0,0 1366x768]
+INFO: Wait for control like Phieukham.png appears on about 5
+ . . 4.5 . . 4.0 . . 3.5 . . 3.0 . . 2.5 . . 2.0 . . 1.5 . . 1.0 . . 0.5 . . 0.0 Stop waiting control appears
+INFO: Take screen shot and save to : C:\Users\nvha.EGOV-DEV/Desktop/screenShot/TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1_11-29-16-39-5_ScreenShotTestCaseFailed.png
+-------------------------------------------------------------------
+WARNING: Failed: Ti?p nh?n B?nh nhân không thành công !
+-------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_2" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="21.958"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_3" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="44.284"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_4" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="26.872"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_5" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="19.783"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_6" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="25.704"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_7" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="54.076"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_8" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="59.429"/>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_9" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="74.261">
+    <failure message="Không tìm thấy bệnh nhân với mã số Bênh nhân 1711000530" type="java.lang.AssertionError">java.lang.AssertionError: Không tìm thấy bệnh nhân với mã số Bênh nhân 1711000530
+	at TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_9(TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.java:379)
+</failure>
+    <system-out><![CDATA[[log] CLICK on L(35,49)@S(0)[0,0 1366x768]
+[log] CLICK on L(72,278)@S(0)[0,0 1366x768]
+[log] CLICK on L(35,49)@S(0)[0,0 1366x768]
+[log] CLICK on L(68,74)@S(0)[0,0 1366x768]
+INFO: Wait for control like dangnhap_ten.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(659,338)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "BS01"
+[log] TYPE "#TAB."
+[log] TYPE "123456"
+[log] TYPE "#TAB."
+[log] TYPE "#ENTER."
+INFO: Wait for control like logo_login_thanhcong.png appears on about 10
+ . . 9.5 . . 9.0 Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(622,306)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is Khám theo yêu c?u
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#ENTER."
+INFO: Wait for control like HIS_MenuKhamBenh.png appears on about 5
+ . . 4.5 . . 4.0 . . 3.5 . . 3.0 . . 2.5 . . 2.0 . . 1.5 . . 1.0 . . 0.5 . . 0.0 Stop waiting control appears
+-------------------------------------------------------------------
+WARNING: Cannot find control : HIS_MenuKhamBenh.png
+-------------------------------------------------------------------
+INFO: Wait for control like FormKhamBenh_KetQuaCanLamSang.png appears on about 6
+ . . 5.5 . . 5.0 . . 4.5 . . 4.0 . . 3.5 . . 3.0 . . 2.5 . . 2.0 . . 1.5 . . 1.0 . . 0.5 . . 0.0 Stop waiting control appears
+-------------------------------------------------------------------
+WARNING: Cannot find control : FormKhamBenh_soTiepNhan.png
+-------------------------------------------------------------------
+[log] TYPE "1711000530"
+-------------------------------------------------------------------
+WARNING: Cannot find control : FormKhamBenh_TimKiem.png
+-------------------------------------------------------------------
+INFO: Wait for control like FormKhamBenh_soDongBang1.png appears on about 2
+ . . 1.5 . . 1.0 . . 0.5 . . 0.0 Stop waiting control appears
+INFO: Take screen shot and save to : C:\Users\nvha.EGOV-DEV/Desktop/screenShot/TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_9_11-29-16-44-31_ScreenShotTestCaseFailed.png
+-------------------------------------------------------------------
+WARNING: Failed: Không tìm th?y b?nh nhân v?i mã s? Bênh nhân 1711000530
+-------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_10" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="28.787">
+    <failure message="Không thể lưu kết quả Kết Luận cuối cùng của bác sĩ , đã gặp sự cố !" type="java.lang.AssertionError">java.lang.AssertionError: Không thể lưu kết quả Kết Luận cuối cùng của bác sĩ , đã gặp sự cố !
+	at TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_10(TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.java:395)
+</failure>
+    <system-out><![CDATA[-------------------------------------------------------------------
+WARNING: Cannot find control : FormKhamBenh_KetLuan.png
+-------------------------------------------------------------------
+INFO: Wait for control like FormKhamBenh_HuongDieuTri.png appears on about 5
+ . . 4.5 . . 4.0 . . 3.5 . . 3.0 . . 2.5 . . 2.0 . . 1.5 . . 1.0 . . 0.5 . . 0.0 Stop waiting control appears
+INFO: Cannot find image on C:\Users\nvha.EGOV-DEV\Downloads\Sikuli.coccoc\Sikuli.coccoc\src\main\resources\FormKhamBenh_HuongDieuTri.png
+INFO: Take screen shot and save to : C:\Users\nvha.EGOV-DEV/Desktop/screenShot/moveMouseHorizontallyFromLogo_11-29-16-44-50_MoveMouseError.png
+[log] CLICK on L(683,384)@S(0)[0,0 1366x768]
+-------------------------------------------------------------------
+WARNING: Cannot find control : FormKhamBenh_HuongDieuTri_ChoVeKhongToa.png
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+WARNING: Cannot find control : FormKhamBenh_LuuVaHoanThanh.png
+-------------------------------------------------------------------
+INFO: Wait for control like HIS_LOI_UNGDUNG.png appears on about 2
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] TYPE "#ENTER."
+INFO: Take screen shot and save to : C:\Users\nvha.EGOV-DEV/Desktop/screenShot/TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_10_11-29-16-45-0_ScreenShotTestCaseFailed.png
+-------------------------------------------------------------------
+WARNING: Failed: Không th? l?u k?t qu? K?t Lu?n cu?i cùng c?a bác s? , ?ã g?p s? c? !
+-------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_11" classname="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS" time="71.707">
+    <failure message="Không tìm thấy thông tin người cần thanh toán viện phí ! " type="java.lang.AssertionError">java.lang.AssertionError: Không tìm thấy thông tin người cần thanh toán viện phí ! 
+	at TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_11(TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.java:434)
+</failure>
+    <system-out><![CDATA[[log] CLICK on L(35,49)@S(0)[0,0 1366x768]
+-------------------------------------------------------------------
+WARNING: Cannot find control : TiepNhanBenhNhan_DangXuat.png
+-------------------------------------------------------------------
+[log] CLICK on L(35,49)@S(0)[0,0 1366x768]
+-------------------------------------------------------------------
+WARNING: Cannot find control : TiepNhanBenhNhan_DangNhap.png
+-------------------------------------------------------------------
+INFO: Wait for control like dangnhap_ten.png appears on about 5
+ . . 4.5 . . 4.0 . . 3.5 . . 3.0 . . 2.5 . . 2.0 . . 1.5 . . 1.0 . . 0.5 . . 0.0 Stop waiting control appears
+INFO: Cannot find image on C:\Users\nvha.EGOV-DEV\Downloads\Sikuli.coccoc\Sikuli.coccoc\src\main\resources\dangnhap_ten.png
+INFO: Take screen shot and save to : C:\Users\nvha.EGOV-DEV/Desktop/screenShot/moveMouseHorizontallyFromLogo_11-29-16-45-24_MoveMouseError.png
+[log] CLICK on L(683,384)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "THUNGAN01"
+[log] TYPE "#TAB."
+[log] TYPE "1"
+[log] TYPE "#TAB."
+[log] TYPE "#ENTER."
+INFO: Wait for control like logo_login_thanhcong.png appears on about 10
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(622,306)@S(0)[0,0 1366x768]
+[log] ( Ctrl ) TYPE "a"
+[log] TYPE "#BACK."
+INFO: Set clipboard contains is Vi?n phí ngo?i trú
+[log] ( Ctrl ) TYPE "v"
+[log] TYPE "#ENTER."
+INFO: Thanh Toan Vien Phi 
+INFO: Wait for control like MenuVienPhi.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(258,48)@S(0)[0,0 1366x768]
+INFO: Wait for control like SubMenuThanhToanVienPhi.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(328,153)@S(0)[0,0 1366x768]
+INFO: Wait for control like VienPhiNgoaiTru_HoaDon_QuyenHoaDon.png appears on about 3
+ Control appears! -> break wait for object
+ Stop waiting control appears
+INFO: Wait for control like VienPhiNgoaiTru_HoaDon_QuyenHoaDon.png appears on about 5
+ Control appears! -> break wait for object
+ Stop waiting control appears
+[log] CLICK on L(598,313)@S(0)[0,0 1366x768]
+[log] TYPE "q"
+[log] TYPE "#DOWN."
+[log] TYPE "#ENTER."
+[log] TYPE "#TAB."
+[log] TYPE "q"
+[log] TYPE "#DOWN."
+[log] TYPE "#ENTER."
+[log] TYPE "#TAB."
+[log] CLICK on L(754,443)@S(0)[0,0 1366x768]
+INFO: Wait for control like VienPhiNgoaiTru_SoTN.png appears on about 5
+ . . 4.5 . . 4.0 . . 3.5 . . 3.0 . . 2.5 . . 2.0 . . 1.5 . . 1.0 . . 0.5 . . 0.0 Stop waiting control appears
+INFO: Cannot find image on C:\Users\nvha.EGOV-DEV\Downloads\Sikuli.coccoc\Sikuli.coccoc\src\main\resources\VienPhiNgoaiTru_SoTN.png
+INFO: Take screen shot and save to : C:\Users\nvha.EGOV-DEV/Desktop/screenShot/moveMouseHorizontallyFromLogo_11-29-16-46-1_MoveMouseError.png
+[log] CLICK on L(683,384)@S(0)[0,0 1366x768]
+[log] TYPE "1711000530"
+[log] TYPE "#ENTER."
+INFO: Wait for control like VienPhiNgoaiTru_SoDongBang1.png appears on about 3
+ . . 2.5 . . 2.0 . . 1.5 . . 1.0 . . 0.5 . . 0.0 Stop waiting control appears
+INFO: Take screen shot and save to : C:\Users\nvha.EGOV-DEV/Desktop/screenShot/TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_11_11-29-16-46-12_ScreenShotTestCaseFailed.png
+-------------------------------------------------------------------
+WARNING: Failed: Không tìm th?y thông tin ng??i c?n thanh toán vi?n phí ! 
+-------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <TableColumn>LOCAL_CODE</TableColumn>
+    <TableColumnDisplayName>Mã khu vực</TableColumnDisplayName>
+  </Table1>
+  <Table1>
+    <TableColumn>LOCAL_NAME</TableColumn>
+    <TableColumnDisplayName>Tên khu vực</TableColumnDisplayName>
+  </Table1>
+  <Table1>
+    <TableColumn>NOTE</TableColumn>
+    <TableColumnDisplayName>Ghi chú</TableColumnDisplayName>
+  </Table1>
+  <Table1>
+    <TableColumn>VISIBLE_INDEX</TableColumn>
+    <TableColumnDisplayName>Thứ tự</TableColumnDisplayName>
+  </Table1>
+</NewDataSet>

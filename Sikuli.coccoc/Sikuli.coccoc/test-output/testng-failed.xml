@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestHIS.TestFormDanhSachBenhNhan">
+        <methods>
+          <include name="testDanhSachBenhNhan_9880_1"/>
+          <include name="dieukienDauTien"/>
+          <include name="ketThucLuong"/>
+        </methods>
+      </class> <!-- TestHIS.TestFormDanhSachBenhNhan -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

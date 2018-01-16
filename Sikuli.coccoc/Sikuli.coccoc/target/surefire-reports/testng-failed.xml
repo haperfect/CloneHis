@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="Sikuli HIS2(failed)" parallel="tests">
+    <classes>
+      <class name="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS">
+        <methods>
+          <include name="dieukienDauTien"/>
+          <include name="ketThucLuong1"/>
+        </methods>
+      </class> <!-- TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS -->
+      <class name="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS">
+        <methods>
+          <include name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1"/>
+          <include name="dieukienDauTien"/>
+          <include name="ketThucLuong1"/>
+        </methods>
+      </class> <!-- TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS -->
+    </classes>
+  </test> <!-- Sikuli HIS2(failed) -->
+  <test name="Sikuli HIS3 (failed)" parallel="tests">
+    <classes>
+      <class name="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS">
+        <methods>
+          <include name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_10"/>
+          <include name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1"/>
+          <include name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_11"/>
+          <include name="TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_9"/>
+          <include name="dieukienDauTien"/>
+          <include name="ketThucLuong1"/>
+        </methods>
+      </class> <!-- TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS -->
+      <class name="TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS">
+        <methods>
+          <include name="dieukienDauTien"/>
+          <include name="ketThucLuong1"/>
+        </methods>
+      </class> <!-- TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS -->
+    </classes>
+  </test> <!-- Sikuli HIS3 (failed) -->
+</suite> <!-- Failed suite [Suite] -->

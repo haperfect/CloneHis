@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 862.369 sec <<< FAILURE! - in TestSuite
+TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1(TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS)  Time elapsed: 62.126 sec  <<< FAILURE!
+java.lang.AssertionError: Tiếp nhận Bệnh nhân không thành công !
+	at TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS.TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1(TestLuongTiepNhanBNDichVu_ThuTienSau_KhongCLS.java:144)
+
+TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1(TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS)  Time elapsed: 61.709 sec  <<< FAILURE!
+java.lang.AssertionError: Tiếp nhận Bệnh nhân không thành công !
+	at TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_1(TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.java:147)
+
+TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_9(TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS)  Time elapsed: 74.261 sec  <<< FAILURE!
+java.lang.AssertionError: Không tìm thấy bệnh nhân với mã số Bênh nhân 1711000530
+	at TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_9(TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.java:379)
+
+TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_10(TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS)  Time elapsed: 28.787 sec  <<< FAILURE!
+java.lang.AssertionError: Không thể lưu kết quả Kết Luận cuối cùng của bác sĩ , đã gặp sự cố !
+	at TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_10(TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.java:395)
+
+TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_11(TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS)  Time elapsed: 71.707 sec  <<< FAILURE!
+java.lang.AssertionError: Không tìm thấy thông tin người cần thanh toán viện phí ! 
+	at TestHIS.TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.TestLuongTiepNhanBenhNhanDichVu_ThuTienSau_11(TestLuongTiepNhanBNDichVu_ThuTienSau_CLS.java:434)
+
